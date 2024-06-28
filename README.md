@@ -52,6 +52,5 @@ git clone https://github.com/mihireshjoshi/DSA.git
 ```bash
 cd DSA
 ```
-```bash
 Explore the directories dedicated to each language for treasures!
-```
+
