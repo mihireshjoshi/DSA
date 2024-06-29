@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/language-Java-orange?style=for-the-badge&logo=java" alt="Java">
   <img src="https://img.shields.io/badge/language-C-lightgrey?style=for-the-badge&logo=c" alt="C">
-  <img src="https://img.shields.io/badge/language-JavaScript-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
   <img src="https://img.shields.io/github/stars/mihireshjoshi/DSA?style=for-the-badge" alt="Stars">
   <img src="https://img.shields.io/github/forks/mihireshjoshi/DSA?style=for-the-badge" alt="Forks">
 </p>
@@ -23,7 +22,7 @@
 
 ## 🌟 About the Project 🌟
 
-Welcome to the **DSA Galaxy**, where data structures and algorithms align to form constellations of knowledge and expertise. As we traverse the cosmos of code, currently, our spacecraft 🚀 is powered by Python LinkedLists, with plans to explore further regions with Java, C, and JavaScript. Join us as we navigate through this cosmic adventure!
+Welcome to the **DSA Galaxy**, where data structures and algorithms align to form constellations of knowledge and expertise. As we traverse the cosmos of code, currently, our spacecraft 🚀 is powered by Python, with plans to explore further regions with Java and C. Join us as we navigate through this cosmic adventure!
 
 ## 🎇 What's Inside 🎇
 
@@ -32,7 +31,6 @@ Within the vast expanse of our galaxy, you'll find:
 - **Python**: LinkedLists ready for exploration! 🐍
 - **Java**: Supernovas of structures and algorithms soon to appear! ☕
 - **C**: A nebula of C concepts forming. 🌌
-- **JavaScript**: Planetary systems of JS awaiting discovery. 🌐
 
 ## 💖 Show Your Support 💖
 
@@ -50,5 +48,9 @@ To board our spacecraft and journey through the DSA Galaxy:
 
 ```bash
 git clone https://github.com/mihireshjoshi/DSA.git
+```
+```bash
 cd DSA
+```
 Explore the directories dedicated to each language for treasures!
+
