@@ -25,5 +25,6 @@ class BottleExchange {
         int numExchange = sc.nextInt();
         int result = numWaterBottles(numBottles, numExchange);
         System.out.println(result);
+        sc.close();
     }
 }
