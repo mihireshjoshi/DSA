@@ -13,7 +13,7 @@
 package Java.problem_solving;
 
 import java.util.*;
-class HelloWorld {
+class CircularGame {
     public static void main(String[] args) {
         int n = 6;
         int k = 5;
