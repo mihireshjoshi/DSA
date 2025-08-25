@@ -7,7 +7,7 @@ public class MinRemovalOps {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] arr = {2, 4, 6, 9};
+        int[] arr = {3, 3, 4, 7};
         System.out.println(sol.minOperation(arr, 1));
     }
 }
