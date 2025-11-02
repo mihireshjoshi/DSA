@@ -87,4 +87,71 @@ public class CountUnguarded {
         int ret = countUnguarded.countUnguarded(m, n, guards, walls);
         System.out.println(ret);
     }
+
+    // Using while loop:
+    public int countUnguardedWhile(int m, int n, int[][] guards, int[][] walls) {
+        int[][] grid = new int[m][n];
+        for(int[] guard: guards) {
+            grid[guard[0]][guard[1]] = 3;
+        }
+        for(int[] wall: walls) {
+            grid[wall[0]][wall[1]] = 2;
+        }
+
+        int ret = guards.length + walls.length;
+
+        for(int[] guard: guards) {
+            int i = guard[0];
+            int j = guard[1];
+            //right
+            j++;
+            while(j < n && grid[i][j] != 2 && grid[i][j] != 3){
+                if(grid[i][j] == 0){
+                    grid[i][j] = 1;
+                    ret++;
+                }
+                j++;
+            }
+
+            j = guard[1];
+
+            //left
+            j--;
+            while(j >= 0 && grid[i][j] != 2 && grid[i][j] != 3){
+                if(grid[i][j] == 0){
+                    grid[i][j] = 1;
+                    ret++;
+                }
+                j--;
+            }
+
+            j = guard[1];
+
+            //down
+            i++;
+            while(i < m && grid[i][j] != 2 && grid[i][j] != 3){
+                if(grid[i][j] == 0){
+                    grid[i][j] = 1;
+                    ret++;
+                }
+                i++;
+            }
+
+            i = guard[0];
+
+            //up
+            i--;
+            while(i >= 0 && grid[i][j] != 2 && grid[i][j] != 3){
+                if(grid[i][j] == 0){
+                    grid[i][j] = 1;
+                    ret++;
+                }
+                i--;
+            }
+
+        }
+
+        return m*n-ret;
+    }
+
 }
